@@ -27,7 +27,7 @@ public class Main {
                 volumeResult + ".");
 
 
-        System.out.print("\nВведіть розмір масиву: ");
+        System.out.print("\n3. Введіть розмір масиву: ");
         int arraySize = scanner.nextInt();
         int[] numbers = new int[arraySize];
 
@@ -43,13 +43,13 @@ public class Main {
 
         scanner.nextLine();
 
-        System.out.print("\nВведіть рядок: ");
+        System.out.print("\n4. Введіть рядок: ");
         String notReversed = scanner.nextLine();
         String reversedResult = reversedInput(notReversed);
         System.out.println("Рядок в зворотньому порядку: " + reversedResult);
 
 
-        System.out.print("\nВведіть а: ");
+        System.out.print("\n5. Введіть а: ");
         int a = scanner.nextInt();
         System.out.print("Введіть b: ");
         int b = scanner.nextInt();
@@ -59,7 +59,7 @@ public class Main {
                 + " дорівнює " + raiseResult + ".");
 
 
-        System.out.print("\nВведіть ціле число n: ");
+        System.out.print("\n6. Введіть ціле число n: ");
         int n = scanner.nextInt();
         scanner.nextLine();
         System.out.print("Введіть текстовий рядок: ");
